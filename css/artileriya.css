@@ -96,7 +96,7 @@ main{
 .hidden {
     display: none;
     position: center;
-    width:210px;
+    width:200px;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.63);
     color: #ffffff;
