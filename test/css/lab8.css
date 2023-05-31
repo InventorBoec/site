@@ -1,0 +1,38 @@
+body{
+    margin: $zer;
+}
+header{
+    height: $px32;
+    background-color: $primary;
+}
+nav{
+    height: $px16;
+    background-color: $secondary;
+}
+$zer: 0;
+$px32: 32px;
+$px16: 16px;
+$primary: #161616;
+$secondary: #323232;
+body{
+    margin: $zer;
+}
+header{
+    height: $px32;
+    background-color: $primary;
+}
+nav{
+    height: $px16;
+    background-color: $secondary;
+}
+body{
+    margin: $zer;
+}
+header{
+    height: $px32;
+    background-color: $primary;
+}
+nav{
+    height: $px16;
+    background-color: $secondary;
+}

@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: #b0a97b;
+}
+header{
+    height: 80px;
+    line-height: 100px;
+    font-family: Elephant;
+    font-size: 40px;
+    color: #0000ff;
+    text-align: center;
+    border-bottom: 3px solid darkblue;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.skills{
+    font-family: Calibri, serif;
+    color: darkblue;
+}
+footer{
+    color: darkblue;
+     text-align: center;
+    font-family: Candara, serif;
+}
+.projects{
+    color: darkblue;
+    text-align: center;
+    font-family: Calibri, serif;
+}
+.education{
+    color: darkblue;
+    text-align: center;
+    font-family: Arial,  serif;
+}
+.skills, .projects, .education{
+    font-family: Candara, serif;
+    color: darkblue;
+    padding: 0px 50px;
+    margin: 100px 30px 100px 50px;
+    border: 5px solid darkblue;
+}

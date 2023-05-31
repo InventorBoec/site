@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url("../src/tank.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.ul__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
+    list-style: none;
+    margin-top:50px;
+}
+.ul__nav * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+.ul__nav a {
+    position: relative;
+    color: rgb(2, 3, 2);
+    padding: 0.5rem 0.8rem;
+    text-decoration: none;
+}
+.ul__nav a:before,
+.ul__nav a:after {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    content: '';
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    opacity: 0;
+}
+.ul__nav a:before {
+    right: 0;
+    top: 0;
+    border-left: 3px solid #07d111;
+    border-bottom: 3px solid #07d111;
+    transform: translate(-100%, 50%);
+}
+.ul__nav a:after {
+    left: 0;
+    bottom: 0;
+    border-left: 3px solid #07d111;
+    border-bottom: 3px solid #07d111;
+    transform: translate(100%, -50%);
+}
+.ul__nav a:hover,
+.ul__nav .home a {
+    color: #ffffff;
+}
+
+.ul__nav a:hover:before,
+.ul__nav .home a:before,
+.ul__nav a:hover:after,
+.ul__nav .home a:after{
+    transform: translate(0%, 0%);
+    opacity: 1;
+}
+.article-block{
+    text-align: center;
+    margin: 16px;
+}
+.article-block img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    transition: .3s;
+}
+.article-block img:hover{
+    transition: .3s;
+    opacity: 0.5;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    height: 100vh;
+    overflow: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+.block{
+    position:relative;
+    text-align: center;
+    margin: 10px;
+}
+.hidden {
+    display: none;
+    position: center;
+    width:210px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.hover + .hidden:before {
+    content: " ";
+    position: center;
+    left: 10%;
+    margin-left: 5px;
+    height: 0;
+    width: 0;
+    border-radius: 10px;
+}
+img {
+    border-radius: 50px;
+}
+.hover + .hidden:after {
+    content: " ";
+    position: center;
+    left: 10%;
+    margin-left: 5px;
+    height: 0;
+    width: 0;
+    z-index: 1;
+}
+.hover:hover + .hidden {
+    display: block;
+    border: #7aff00 2px solid;
+    border-radius: 5px;
+}
