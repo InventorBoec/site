@@ -13,8 +13,8 @@ body{
     vertical-align: top;
 }
 .columns__item--first {
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-right: 250px;
+    padding-left: 250px;
     font-size: xx-large;
 }
 .columns__item--second {
