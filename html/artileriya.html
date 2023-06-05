@@ -110,6 +110,20 @@
         <span class="hidden">9,2-дюймова гаубиця - британська 233,7-мм важка гаубиця облоги,
              яка у роки Першої світової війни знаходилася на озброєнні британських військ у Франції.</span></div>
     </div>
+<div class="video-container">
+        <video id="myVideo" src="../src/бомж.mp4" width="640" height="360"></video>
+    </div>
+    <script>
+        var video = document.getElementById('myVideo');
+
+        video.addEventListener('mouseover', function() {
+            video.play();
+        });
+
+        video.addEventListener('mouseout', function() {
+            video.pause();
+        });
+    </script>
 
 </main>
 
