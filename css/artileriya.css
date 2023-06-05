@@ -129,3 +129,12 @@ img {
     border: #7aff00 2px solid;
     border-radius: 5px;
 }
+.video-container {
+    display: grid;
+    place-items: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
