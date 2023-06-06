@@ -97,7 +97,20 @@
     <span class="hidden">Легкий танк супроводу FCM 36 – французький легкий танк 1930-х років. Розроблений у 1934 році для супроводу піхоти.</span></div>
   </div>
 
+ <div class="video-container">
+    <video id="myVideo" src="../src/танк.mp4" width="640" height="300"></video>
   </div>
+  <script>
+    var video = document.getElementById('myVideo');
+
+    video.addEventListener('mouseover', function() {
+      video.play();
+    });
+
+    video.addEventListener('mouseout', function() {
+      video.pause();
+    });
+  </script>
 </main>
 <body>
 
