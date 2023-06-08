@@ -65,21 +65,6 @@ body{
     transform: translate(0%, 0%);
     opacity: 1;
 }
-.article-block{
-    text-align: center;
-    margin: 16px;
-}
-.article-block img{
-    width: 200px;
-    height: 200px;
-    border: 2px solid black;
-    transition: .3s;
-}
-.article-block img:hover{
-    transition: .3s;
-    opacity: 0.5;
-    cursor: pointer;
-}
 main{
     display: flex;
     height: 100vh;
